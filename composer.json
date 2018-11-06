@@ -1,0 +1,25 @@
+{
+    "name": "mirazmac/php-deep-fry",
+    "type": "library",
+    "description": "A Deep Fryer written in PHP to cook some smokin' hot memes!",
+    "keywords": ["meme", "deep fry", "deep fryer", "image processing", "image fryer", "meme fryer"],
+    "homepage": "https://github.com/mirazmac/php-deep-fry",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Miraz Mac",
+            "email": "mirazmac@gmail.com",
+            "homepage": "https://mirazmac.info",
+            "role": "Original Author"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "MirazMac\\DeepFry\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=5.4.0",
+        "ext-gd": "*"
+    }
+}
